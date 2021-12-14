@@ -29,11 +29,11 @@ rpm -Uvh nginx-1.19.3-1.el7.ngx.src.rpm
 cd rpmbuild/SPECS/
 
 ## Правим nginx.spec
-#vi rpmbuild/SPECS/nginx.spec
+### vi rpmbuild/SPECS/nginx.spec
 
 sed '123i<--with-openssl=/root/openssl-1.1.1a>' nginx.spec
 
-#добавляем после %build
+### добавляем после %build
 ./configure
 --with-openssl=/root/openssl-1.1.1a
 
