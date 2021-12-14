@@ -65,7 +65,7 @@ systemctl status nginx
 rpm -qa | grep nginx
 
 
-# ================ Создание репозитория =========================
+# ===== Создание репозитория =====
 ### ---действия производим под root
 
 mkdir /usr/share/nginx/html/repo
