@@ -60,7 +60,7 @@ systemctl status nginx
 systemctl start nginx
 systemctl status nginx
 
-## Проверяем под каким именем пакет встал в систему =============
+## Проверяем под каким именем пакет встал в систему
 
 rpm -qa | grep nginx
 
