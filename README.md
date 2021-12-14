@@ -1,5 +1,4 @@
-# rpm
-test work rpm repository
+# Создание своего репозитория rpm пакетов
 
 #=== Устанавливаем необходимые пакеты 
 
@@ -80,18 +79,18 @@ ls -l
 createrepo /usr/share/nginx/html/repo/
 
 nginx -s reload
-===========================================
+#===========================================
 
 https://downloads.apache.org/httpd/httpd-2.4.51.tar.bz2
 
-=== Building RPMs 
+#=== Building RPMs 
 rpmbuild -tb httpd-2.4.x.tar.bz2
 
-=== Creating a Source RPM ¶
+#=== Creating a Source RPM ¶
 
 rpmbuild -ts httpd-2.4.x.tar.bz2
 
---------------------------------------------------------
-cd
-=== haproxy
+#--------------------------------------------------------
+
+#=== haproxy
 https://www.haproxy.org/download/2.5/src/haproxy-2.5.0.tar.gz
