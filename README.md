@@ -66,7 +66,7 @@ rpm -qa | grep nginx
 
 
 # ===== Создание репозитория =====
-### ---действия производим под root
+### действия производим под root
 
 mkdir /usr/share/nginx/html/repo
 
